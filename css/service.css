@@ -82,7 +82,7 @@ color: #fff;
 background-color: transparent;
     }
     .service button {
-width: 382px;
+width: 100%;
 height: 42px;
 gap: 8px;
 border-radius: 4px;
