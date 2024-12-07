@@ -1,0 +1,25 @@
+.description {
+    margin-top: 12px;
+}
+.description h1 {
+    font-family: "Onest";
+font-size: 24px;
+font-weight: 800;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background-color: #fff;
+padding: 32px 16px 16px 16px;
+}
+.description p {
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding: 32px 16px 16px 16px;
+background-color: #fff;
+}

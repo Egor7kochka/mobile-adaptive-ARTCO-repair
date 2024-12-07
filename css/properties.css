@@ -1,0 +1,46 @@
+.properties {
+    margin-top: 12px;
+}
+.properties h1 {
+font-family: "Onest";
+font-size: 24px;
+font-weight: 800;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background-color: #fff;
+padding: 32px 16px 16px 16px;
+}
+.properties ul {
+    padding: 16px 16px 32px 16px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.properties ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.properties ul li img{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+padding-bottom: 10px;
+}
+.properties ul li p{
+    background-color: #fff;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+line-height: 16px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}

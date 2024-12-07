@@ -1,0 +1,76 @@
+.info p {
+    width: 290px;
+    padding-bottom: 30px;
+   
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+margin-top: 16px;
+margin-left: 16px;
+}
+.info p:nth-child(2) {
+   
+    margin-top: -20px;
+    color: #008055;
+}
+.info span {
+color: #6E7072;
+background-color: transparent;
+}
+.info p:nth-child(1) span {
+    font-family: "Open Sans";
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-variation-settings: 'wdth' 100;
+
+}
+
+.info {
+    position: relative;
+    background-color: #fff;
+}
+.info img {
+    width: 68px;
+height: 68px;
+position: absolute;
+top: 0px;
+right: 16px;
+background-color: transparent;
+}
+.info p{
+    background-color: transparent;
+}
+
+.spisok {
+    background-color: #fff;
+}
+.spisok ul li {
+    background-color: transparent;
+}
+.spisok ul li img{
+    background-color: transparent;
+    margin-bottom: 8px;
+}
+.spisok ul{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+text-align: center;
+color: #6E7072;
+list-style-type: none;
+padding-bottom: 32px;
+}
