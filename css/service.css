@@ -95,3 +95,6 @@ background: #DC0E0E;
         background: #d84910;
         transition: 0.3s;
     }
+    .service button:focus {
+        background-color: #643725;
+    }
