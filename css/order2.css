@@ -3,18 +3,20 @@
     padding: 0px;
 }
 
-.hiddenBlock {
+.hiddenBlock-2 {
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
     background-color: #fff;
     padding: 0px 16px 0px 16px;
     overflow: hidden;
+    display: none;
 }
-.order-header {
+.order-header-2 {
     margin-top: 16px;
     background-color: #fff;
 }
-.order-header p:nth-child(2) {
+.order-header-2 p:nth-child(2) {
     font-family: Onest;
     font-size: 17px;
     font-weight: 800;
@@ -24,7 +26,7 @@
     text-decoration-skip-ink: none;
     background-color: #fff;
 }
-.order-header p:nth-child(3) {
+.order-header-2 p:nth-child(3) {
 font-family: Open Sans;
 font-size: 14px;
 font-weight: 400;
@@ -36,7 +38,7 @@ text-align: center;
 color: #6E7072;
 background-color: #fff;
 }
-.order-header p:nth-child(3) span {
+.order-header-2 p:nth-child(3) span {
     font-family: Open Sans;
 font-size: 14px;
 font-weight: 700;
@@ -46,7 +48,7 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 background-color: #fff;
     }
-    .order-category h1{
+    .order-category-2 h1{
         margin-top: 16px;
         background-color: #fff;
         padding-bottom: 16px;
@@ -59,51 +61,51 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #2D2E2F;;
     }
-    .order-category {
+    .order-category-2 {
         background-color: #fff;
     }
-.order-category ul {
-    list-style-type: none;
-    background-color: #fff;
-}
-.order-category ul li {
-    display: flex;
-    justify-content: space-between;
+    .order-category-2 input {
+        box-sizing: border-box;
+        position: relative;
+        background-color: #fff;
+        border: 2px solid #0286A6;
+        border-radius: 4px;
+        width: 100%;
+height: 220px;
+    }
+    .order-category-2 input[type="text"] { 
 font-family: Open Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 22px;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-padding-bottom: 16px;
-padding-top: 16px;
-border-bottom: 1px solid #EAEAEA;
-background-color: #fff;
+
+    padding-left: 16px;
+    padding-bottom: 175px;
+
 }
-.order-category ul li:nth-last-child(1) {
-    border-bottom: none;
-}
-.btnB {
-    width: calc(100% - 16px * 2);
+.btnB-2 {
+    width: 100%;
  position: absolute;
  bottom: 16px;
     background-color: #fff;
-    overflow: hidden;
 }
-.hiddenBlock {
-    display: none;
+.hiddenBlock-2 {
+    position: relative;
     height: 100%;
     overflow: hidden;
 }
-.btnB button {
-    width: 100%;
+.btnB-2 button {
+    background: #DD0505;
+    width: calc(100% - 16px* 2);
     display: flex;
+    border-radius: 4px;
     justify-content: center;
     align-items: center;
     border: none;
 height: 44px;
-background: #F0F0F0;
 font-family: Onest;
 font-size: 17px;
 font-weight: 500;
@@ -111,22 +113,34 @@ line-height: 22px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-border-radius: 4px;
+color: #fff;
 }
-.black {
+.black-2 {
 background-color: #fff;
 position: absolute;
 }
-.black button {
+.black-2 button {
     border: none;
     background: #fff;
 }
-.black img {
+.black-2 img {
 background-color: #fff;
 }
-.w {
+.w-2{
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+.btnB-2 button:nth-child(1) {
+    background: #fff;
+    color: #6E7072;
+    }
+    .btnB-2 button:nth-child(2):disabled {
+        opacity: 0.5; /* Делаем кнопку полупрозрачной */
+        cursor: not-allowed; /* Меняем курсор на "нельзя" */
+        background-color: #ccc; /* Меняем цвет фона */
+        /* другие стили */
+      }
+      
+      

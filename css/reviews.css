@@ -1,0 +1,147 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    padding:32px 16px 0px 16px;
+    background-color: #fff;
+}
+.blocks {
+    display: flex;
+    width: 100%;
+}
+.estimation {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.stars {
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    background-color: #fff;
+}
+.some {
+    display: flex;
+    background-color: #fff;
+}
+.new {
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+    width: 80px;
+    height: 32px;
+    border-radius: 500px;
+    border: 1px solid #C8C9CA;
+    background-color: #fff;
+    margin-right: 8px;
+}
+.new p {
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-variation-settings: 'wdth' 100;
+background-color: #fff;
+}
+.answers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 169px;
+    height: 32px;
+    border-radius: 500px;
+    border: 1px solid #C8C9CA;
+    background-color: #fff;
+}
+.answers p {
+    font-family: Open Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-variation-settings: 'wdth' 100;
+background-color: #fff;
+}
+.star {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #fff;
+}
+.star img {
+    background-color: #fff;
+}
+.star p {
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: #fff;
+}
+.line {
+    width: 100%;
+    height: 8px;
+    border-radius: 500px;
+}
+.imgs {
+    display: flex;
+    background-color: #fff;
+}
+.imgs img {
+    padding-right: 3px;
+    background-color: #fff;
+}
+.reviews h1:nth-child(1) {
+font-family: Onest;
+font-size: 21px;
+font-weight: 800;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #2D2E2F;
+padding-bottom: 48px;
+background-color: #fff;
+}
+.reviews h1:nth-child(2) {
+font-family: Onest;
+font-size: 33px;
+font-weight: 800;
+line-height: 36px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-bottom: 8px;
+background-color: #fff;
+}
+.estimation p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #6E7072;
+    background-color: #fff;
+}
+.line {
+    background: #EAEAEA;
+}
+.orange {
+    background: #FB8C3C;
+}
+.red {
+    background: #FB433C;
+}
