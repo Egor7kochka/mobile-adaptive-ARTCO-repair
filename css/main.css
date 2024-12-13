@@ -3,10 +3,70 @@ background: #EAEAEA;
 padding: 0px;
 margin: 0px;
 }
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 100vh;
+}
+main {
+   flex: 1 0 auto;
+   height: 100%;
+}
 .header {
    position: relative;
     width: 100%;
     background: #fff;
+}
+.mainp p:nth-last-child(1) {
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #fff;
+background-color: transparent;
+padding-left: 8px;
+}
+.mainp {
+   left: 16px;
+   position: absolute;
+   bottom: 16px;
+   background-color: transparent;
+}
+.otzivi {
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   
+}
+.mainp h1 {
+font-family: Onest;
+font-size: 33px;
+font-weight: 800;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #fff;
+   background-color: transparent;
+}
+.mainp p:nth-child(1) {
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-variation-settings: 'wdth' 100;
+color: #fff;
+background-color: transparent;
+}
+.mainp img{
+   background-color: transparent;
 }
 .search {
    position: absolute;
@@ -45,5 +105,5 @@ color: #fff;
 }
 .main-img {
    width: 100%;
-   
+   position: relative;
 }
