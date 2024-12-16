@@ -145,3 +145,169 @@ background-color: #fff;
 .red {
     background: #FB433C;
 }
+.nameAvatar {
+    display: flex;
+}
+.revieWW {
+    background-color: #fff;
+    padding-top: 32px;
+}
+.nameAvatar img:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+
+    background-color: #fff;
+}
+.nameAvatar {
+    background-color: #fff;
+}
+.name p:nth-child(1) {
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background-color: #fff;
+color: black;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.icons img {
+    background-color: #fff;
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 0px !important;
+}
+.icons p {
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #6E7072;
+background-color: #fff;
+}
+
+.fourStars {
+    padding-top: 16px;
+display: flex;
+background-color: #fff;
+align-items: center;
+}
+.fourStars img {
+    width: 20px;
+    height: 20px;
+    padding-right: 3px;
+background-color: #fff;
+}
+.fourStars p {
+    padding-left: 5px;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #6E7072;
+    background-color: #fff;
+}
+.textContainer {
+    padding-top: 12px;
+    background-color: #fff;
+}
+.hdtext {
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    background-color: #fff;
+    overflow: hidden;
+ text-overflow: ellipsis;
+  transition: max-height 0.5s ease; 
+}
+.btns {
+    background-color: #fff;
+}
+.btns button {
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    border: none;
+    background-color: #fff;
+    color: #0286A6;
+
+}
+.imgS {
+    padding-top: 16px;
+    justify-content: space-between;
+    background-color: #fff;
+    display: flex;
+}
+.imgS img {
+    width: 24%;
+    height: 100%;
+    border-radius: 4px;
+}
+.reactions {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.reactions button {
+    width: 44px;
+    height: 44px;
+ border: none;
+    background-color: #fff;
+}
+.reactions img {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #C8C9CA;
+    border-radius: 100px;
+}
+.knopka {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.knopka p {
+    margin-top: 5px;
+    background-color: #fff;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #6E7072;
+
+}
