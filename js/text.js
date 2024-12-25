@@ -1,18 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const textElement = document.querySelector('.hdtext');
-    const readMoreButton = document.querySelector('.readMore');
-    const buttonsContainer = document.querySelector('.btns');
-  
+  const reviewBlocks = document.querySelectorAll('.revieWW');
+
+  reviewBlocks.forEach(block => {
+    const textElement = block.querySelector('.hdtext');
+    const readMoreButton = block.querySelector('.readMore');
+    const buttonsContainer = block.querySelector('.btns');
+
     if (!textElement || !readMoreButton || !buttonsContainer) {
-      console.error("Один или несколько элементов не найдены!");
+      console.error("Один или несколько элементов не найдены в блоке!", block);
       return;
     }
-  
-    const maxChars = 100; // Максимальное количество символов для отображения
+
+    const maxChars = 100;
     const fullText = textElement.textContent;
     const lines = [];
     let currentLine = "";
-  
+
     for (let i = 0; i < fullText.length; i++) {
       currentLine += fullText[i];
       if (currentLine.length >= maxChars) {
@@ -23,16 +26,16 @@ document.addEventListener('DOMContentLoaded', function() {
     if (currentLine.length > 0) {
       lines.push(currentLine);
     }
-  
-    const maxLines = 1; //максимальное кол-во строк для отображения изначально
-    let visibleLines = lines.slice(0, maxLines).join('\n'); 
-  
+
+    const maxLines = 1;
+    let visibleLines = lines.slice(0, maxLines).join('\n');
+
     if (lines.length > maxLines) {
       visibleLines += '...';
     }
-  
+
     textElement.textContent = visibleLines;
-  
+
     readMoreButton.addEventListener('click', () => {
       textElement.classList.toggle('show');
       if (textElement.classList.contains('show')) {
@@ -54,6 +57,5 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+});
 
-  
-  

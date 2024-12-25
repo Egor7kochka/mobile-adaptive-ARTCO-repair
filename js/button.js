@@ -85,3 +85,33 @@ nextSecond.addEventListener("click", () => {
   hiddenSecond.style.display = "none";
   hiddenThird.style.display = "block"
   })
+  const comment = document.querySelector(".com");
+  const answers = document.querySelectorAll(".ans");
+  const hideBtn = document.createElement("button")
+
+  hideBtn.textContent = "Скрыть"
+
+  hideBtn.style.display = "none";
+
+  const lastCom = document.querySelector(".reviews .revieWW:nth-last-child(4)")
+
+  lastCom.insertAdjacentElement('afterend', hideBtn)
+  
+  hideBtn.classList.add("com")
+
+  comment.addEventListener("click", () => {
+    comment.style.display = "none";
+    answers.forEach(answer => {
+      answer.style.display = "block";
+    });
+    hideBtn.style.display = "block"
+  });
+
+  hideBtn.addEventListener("click", () => {
+    answers.forEach(answer => {
+      answer.style.display = "none";
+    });
+    comment.style.display = "flex";
+    hideBtn.style.display = "none"; // Скрываем кнопку "Скрыть"
+  });
+  
